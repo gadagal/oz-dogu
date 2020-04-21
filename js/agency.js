@@ -38,15 +38,4 @@
   navbarCollapse();
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
-
-  $('#lightSlider').lightSlider({
-    auto: true,
-    item: 1,
-    loop: true,
-    slideMargin: 0,
-    thumbItem: 9,
-    mode: 'fade',
-    keyPress: true,
-});
-
 })(jQuery); // End of use strict

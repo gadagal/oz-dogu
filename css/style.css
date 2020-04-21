@@ -48,30 +48,6 @@ i.icon-moon {
     margin-bottom: 10%;
 }
 
-ul.slider-element {
-    list-style: none outside none;
-    padding-left: 0;
-    margin-bottom: 0;
-}
-
-li.slider-element {
-    display: block;
-    float: left;
-    margin-right: 6px;
-    cursor: pointer;
-}
-
-img.slider-element {
-    display: block;
-    max-height: 70vh;
-    height: auto;
-    max-width: 100%;
-    margin: 0 auto;
-    border: 3px double #000000;
-    -webkit-box-shadow: 0px 0px 15px 5px #000000;
-    box-shadow: 0px 0px 15px 5px #000000;
-}
-
 #portfolio {
     background: #E8CBC0;
     /* fallback for old browsers */
@@ -79,6 +55,16 @@ img.slider-element {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #636FA4, #E8CBC0);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#portfolio img {
+    max-height: 70vh;
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+    border: 3px double #000000;
+    -webkit-box-shadow: 0px 0px 15px 5px #000000;
+    box-shadow: 0px 0px 15px 5px #000000;
 }
 
 .page {
@@ -100,20 +86,30 @@ img.slider-element {
     background-position: center center;
     background-size: cover;
 }
+
 #clients {
-  background-color: #fed136;
+    background-color: #fed136;
 }
+
 #clients .col-md-3.col-sm-6 {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
+
 #team {
-  background-color:#ffffe6!important;
+    background-color: #ffffe6!important;
 }
-#clients li.list-inline-item{
-  color: #0e3c7f;
-  font-size: x-small;
+
+#clients li.list-inline-item {
+    color: #0e3c7f;
+    font-size: x-small;
 }
+
 #contact {
     color: white;
+}
+#logoImg {
+    width: 128px;
+    height: 50px;
+    margin: 0 auto;
 }
